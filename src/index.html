@@ -1,0 +1,364 @@
+---
+title: 'Massage'
+description: 'Experience tranquility at Noi Thai Massage in Sunderland. Indulge in expert massage therapies for relaxation and rejuvenation. Book now!'
+preloadImg: '/assets/images/hero2.webp'
+permalink: '/'
+eleventyNavigation:
+  key: Home
+  order: 100
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/local.css" />
+    <link rel="stylesheet" href="/assets/css/critical.css" />
+
+    <!-- Script for Netlify Identity -->
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script defer>
+        if (window.netlifyIdentity) {
+            window
+                .netlifyIdentity
+                .on('init', (user) => {
+                    if (!user) {
+                        window
+                            .netlifyIdentity
+                            .on('login', () => {
+                                document.location.href = '/admin/';
+                            });
+                    }
+                });
+        }
+    </script>
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-1059">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h1 class="cs-title">Traditional Thai Massage in Sunderland</h1>
+            <p class="cs-text">
+                Experience the timeless restorative powers of traditional Thai massage. At Noi, I blend ancient healing techniques with modern indulgences to elevate your mind, body, and soul.
+            </p>
+            <a href="{{client.onlineBooking}}" target="_blank" rel="noopener" class="cs-button-solid">Schedule A Massage</a>
+        </div>
+    </div>
+
+    <!-- Background Image -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="/assets/images/hero2-m.webp">
+        <source media="(min-width: 601px)" srcset="/assets/images/hero2.webp">
+        <img decoding="async" src="/assets/images/hero2.jpg" alt="massage treatment" width="2250" height="1500" aria-hidden="true">
+    </picture>
+</section>
+
+<!-- ============================================ -->
+<!--                Why Choose Us                 -->
+<!-- ============================================ -->
+
+<section id="why-choose-1630">
+    <div class="cs-container">
+        <div class="cs-flex">
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/why2-m.webp">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/why2-m.webp">
+                <img loading="lazy" decoding="async" src="/assets/images/why2.jpg" alt="therapy" width="608" height="400">
+            </picture>
+            <div class="cs-content">
+                <span class="cs-topper">Why Us</span>
+                <h2 class="cs-title">Discover the Noi Thai Massage Difference</h2>
+                <p class="cs-text">
+                    As a skilled therapist trained in Thailand's ancient healing arts, I provide a tailored therapeutic experience designed just for you. Combining time-honored techniques with personalized care, I guide you on a journey of rejuvenation and well-being. Choose Noi Thai Massage and discover the transformative power of authentic Thai massage.
+                </p>
+            </div>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <h3 class="cs-h3">
+                    <picture class="cs-wrapper">
+                        <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/house.svg" alt="icon" width="24" height="24">
+                    </picture>
+                    Authentic Thai Ambience
+                </h3>
+                <p class="cs-item-text">
+                    From the gentle melodies of traditional Thai music and soothing aromatic oils to the intricate décor and attentive service, every element at Noi Thai Massage has been thoughtfully curated to immerse you in an authentic Thai atmosphere, allowing you to surrender to the tranquillity of this ancient healing art.
+                </p>
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3">
+                    <picture class="cs-wrapper">
+                        <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/certificate.svg" alt="icon" width="24" height="24">
+                    </picture>
+                    Experienced Therapist
+                </h3>
+                <p class="cs-item-text">
+                    I have honed my craft at the prestigious Wat Pho School in Bangkok, the birthplace of traditional Thai massage. This world-renowned training ensures that you receive an authentic, restorative Thai massage experience, delivered with the utmost skill and care.
+                </p>
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3">
+                    <picture class="cs-wrapper">
+                        <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/thai.svg" alt="icon" width="24" height="24">
+                    </picture>
+                    Tailored to Your Needs
+                </h3>
+                <p class="cs-item-text">
+                    I take the time to understand your unique needs and preferences, tailoring each session to ensure you receive the most beneficial experience possible. Whether you seek relief from tension or crave relaxation, I customize my approach to deliver the perfect massage for you.
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+
+<!-- ============================================ -->
+<!--             Side By Side Reverse             -->
+<!-- ============================================ -->
+
+<section id="sbs-r-870">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="/assets/images/side/thai2-m.webp">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="/assets/images/side/thai2.webp">
+            <img loading="lazy" decoding="async" src="/assets/images/side/thai2.jpg" alt="deep tissue" width="630" height="775">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">Featured Treatment</span>
+            <h2 class="cs-title">Deep Tissue Massage</h2>
+            <p class="cs-text">
+                Ideal for athletes, fitness enthusiasts, and those with chronic muscle tension, our Deep Tissue Massage targets the deepest layers of muscle and connective tissue. Through firm pressure and slow, purposeful strokes, our skilled therapists alleviate pain, enhance mobility, and accelerate recovery from sports-related strain.
+            </p>
+            <p class="cs-text">
+                This tailored massage addresses your unique muscular concerns, offering a profound sense of physical and mental relief. Experience the deeply therapeutic approach that restores your overall well-being, making it perfect for both pre-event preparation and post-event recovery.
+            </p>
+            <a href="/deep-tissue/" class="cs-button-solid">Deep Tissue Massage</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-879">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Popular</span>
+            <h2 class="cs-title">Discover a World of Relaxation and Rejuvenation</h2>
+            <p class="cs-text">
+                Discover the perfect massage to suit your needs and embark on a transformative experience that leaves you feeling refreshed, rejuvenated, and in harmony with your body and mind.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <a href="/massages/" class="cs-link">
+                    <h3 class="cs-h3">Thai Herbal Compress Massage</h3>
+                    <p class="cs-item-p">
+                        Experience the therapeutic benefits of warm, herb-infused compresses. The heat and aromatic herbs work together to ease tension, promote circulation, and encourage deep relaxation.
+                    </p>
+                    <!--Backgorund Image-->
+                    <picture class="cs-background">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="assets/images/services/herbal-compress.webp">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="assets/images/services/herbal-compress.webp">
+                        <img loading="lazy" decoding="async" src="assets/images/services/herbal-compress.jpg" alt="herbal compress" width="1280" height="568">
+                    </picture>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="/massages/" class="cs-link">
+                    <h3 class="cs-h3">Hot Stone Massage</h3>
+                    <p class="cs-item-p">
+                        Surrender to the warmth of smooth, heated basalt stones that melt away tension. The combination of skilled massage techniques and penetrating heat creates a deeply comforting and rejuvenating experience.
+                    </p>
+                    <!--Backgorund Image-->
+                    <picture class="cs-background">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="/assets/images/services/hotstone.webp">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="/assets/images/services/hotstone.webp">
+                        <img loading="lazy" decoding="async" src="/assets/images/services/hotstone.jpg" alt="hotstone" width="1280" height="568">
+                    </picture>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="/massages/" class="cs-link">
+                    <h3 class="cs-h3">Thai Aromatherapy Massage</h3>
+                    <p class="cs-item-p">
+                        Indulge in the therapeutic benefits of essential oils combined with Swedish massage techniques. This sensory journey promotes relaxation, alleviates stress, and enhances overall well-being.
+                    </p>
+                    <!--Backgorund Image-->
+                    <picture class="cs-background">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="/assets/images/services/aromatherapy-m.webp">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="/assets/images/services/aromatherapy.webp">
+                        <img loading="lazy" decoding="async" src="/assets/images/services/aromatherapy.jpg" alt="aromatherapy" width="1280" height="568">
+                    </picture>
+                </a>
+            </li>
+        </ul>
+        <a href="/massages/" class="cs-button-solid">See All Massages</a>
+    </div>
+</section>             
+                                
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs-867">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="/assets/images/side/thai3-m.webp">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="/assets/images/side/thai3.webp">
+            <img loading="lazy" decoding="async" src="/assets/images/side/thai3.jpg" alt="thai massage" width="630" height="775">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">Featured Treatment</span>
+            <h2 class="cs-title">Traditional Thai Massage</h2>
+            <p class="cs-text">
+                Deeply rooted in the ancient healing traditions of Thailand, our Traditional Thai Massage offers a unique and holistic approach to well-being. This massage technique combines gentle stretching, deep pressure, and energy work to promote relaxation, flexibility, and balance throughout the body.
+            </p>
+            <p class="cs-text">
+                Our skilled therapists use their hands, thumbs, elbows, and feet to guide your body through a series of yoga-like stretches and pressure point stimulation. This traditional method is ideal for those seeking to alleviate stress, improve circulation, and enhance overall flexibility and range of motion.
+            </p>
+            <a href="/thai-massage/" class="cs-button-solid">Thai Massage</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                    FAQ                       -->
+<!-- ============================================ -->
+
+<section id="faq-1109">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">FAQ’s</span>
+            <h2 class="cs-title">Frequently Asked Questions</h2>
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/faq2-m.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/faq2.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/faq2.jpg" alt="thai massage treatment" width="522" height="400">
+            </picture>
+        </div>
+        <div class="cs-flex-group">
+            <ul class="cs-faq-group">
+                <!-- Active class added as default -->
+                <li class="cs-faq-item active">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            How often should I get a massage?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        The frequency of your massage sessions should be tailored to your individual health needs and wellness goals. Consistent sessions, whether scheduled weekly or monthly, can amplify the benefits of massage therapy, such as reduced pain, improved emotional well-being, and enhanced overall vitality. Our experienced therapists can help you determine the optimal frequency to ensure you receive the maximum benefits from your massage treatments.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Can I eat before a massage?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        To ensure the most comfortable and effective massage experience, we recommend avoiding eating for at least 90 minutes before your scheduled session. If you find it necessary to eat, opt for a light meal, as the increased blood flow during a massage can potentially impact digestion. This allows your body to fully relax and benefit from the therapeutic techniques without any discomfort.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            How do I prepare for a massage?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        To prepare for your massage, we suggest arriving a few minutes early to allow yourself time to unwind and complete any necessary forms. Dress in comfortable clothing that allows easy access to the areas you wish to focus on during the session. Take a moment to reflect on any specific areas of tension or concern you'd like your therapist to address, as this will help them tailor the massage to your needs.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            What should I do after my massage?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        After your massage, it's crucial to prioritize hydration to support your body's natural process of eliminating toxins released during the session. We recommend drinking plenty of water and taking time to rest, as your body continues to respond to the therapeutic effects of the massage. It's best to avoid any strenuous physical activities for the remainder of the day, allowing your body to fully integrate the benefits of the massage.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            What if I have specific health concerns?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        If you have any specific health concerns, such as injuries, chronic pain, or medical conditions, please inform your therapist before your massage. Our knowledgeable therapists can adapt the massage techniques to accommodate your needs and ensure a safe, beneficial experience. In some cases, it may be necessary to consult with your healthcare provider before receiving a massage. Your well-being is our top priority.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<section id="reviews-727">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Testimonials</span>
+            <h2 class="cs-title">Our Clients' Experiences</h2>
+            <p class="cs-text">
+                At Noi Thai Massage, we are dedicated to providing exceptional massage services that leave a lasting impression on our clients. We invite you to explore the authentic testimonials from our valued patrons, as they share their transformative experiences and reflect on the quality of care they received at our establishment.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-icon" src="/assets/svgs/gold-quote.svg" alt="quote icon" aria-hidden="true" width="40" height="38" loading="lazy" decoding="async">
+                <h3 class="cs-h3">Professional & Experienced</h3>
+                <p class="cs-item-text">
+                    Noi is fantastic. So professional and extremely experienced. Following a second hip replacement, I wanted to get my back and legs loosened out. I had complete confidence in Noi, and she worked wonders.
+                </p>
+                <span class="cs-name">Joe McGovern</span>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="/assets/svgs/gold-quote.svg" alt="quote icon" aria-hidden="true" width="40" height="38" loading="lazy" decoding="async">
+                <h3 class="cs-h3">Heals Soul & Body</h3>
+                <p class="cs-item-text">
+                    Noi is a beautiful soul who heals your own soul and body. Thank you Noi 😊 Clint <br>&nbsp
+                </p>
+                <span class="cs-name">NE</span>
+            </li>
+        </ul>
+        <a href="https://www.google.com/search?q=noi+thai+massage+sunderland&rlz=1C5CHFA_enTH953TH953&oq=&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7Mg0IARAuGK8BGMcBGIAEMgcIAhAAGIAEMgcIAxAAGIAEMg0IBBAuGK8BGMcBGIAEMg0IBRAuGK8BGMcBGIAEMgYIBhBFGDwyBggHEEUYPNIBCDMzOThqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#lrd=0x487e655fe009cac5:0x1a2190a004fa7280,1,,,," target="_blank" rel="noopener" class="cs-button-solid">Leave A Review</a>
+    </div>
+</section>                 
+
+
+<script>const faqItems = Array.from(document.querySelectorAll('.cs-faq-item'));
+    for (const item of faqItems) {
+        const onClick = () => {
+        item.classList.toggle('active')
+    }
+    item.addEventListener('click', onClick)
+    }
+</script>                 
+
+    {% include 'components/cta.html' %}
+{% endblock %}

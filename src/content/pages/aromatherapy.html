@@ -1,0 +1,76 @@
+---
+title: 'Aromatherapy Massage'
+description: 'Discover the soothing aromatherapy massage at Marcha in Preston. A blend of essential oils and expert massage for ultimate relaxation and balance'
+preloadImg: '/assets/images/banners/internal.webp'
+permalink: false
+eleventyNavigation:
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/internal.css">
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-1400">
+    <div class="cs-container">
+        <span class="cs-int-title">Aromatherapy Massage</span>
+        <div class="cs-breadcrumbs">
+            <a href="/" class="cs-link">Home</a>
+            <a href="/aromatherapy/" class="cs-link cs-active">Aromatherapy Massage</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/banners/internal-m.webp">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="/assets/images/banners/internal.webp">
+        <img decoding="async" src="/assets/images/banners/internal.jpg" alt="massage" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+
+<!-- ============================================ -->
+<!--                 Content Page                 -->
+<!-- ============================================ -->
+
+<section id="content-page-1399">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <div class="cs-flex">
+                <picture class="cs-background">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets/images/services/aromatherapy.webp">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets/images/services/aromatherapy-m.webp">
+                    <img loading="lazy" decoding="async" src="/assets/images/side/aromatherapy.jpg" alt="thai massage" width="542" height="728">
+                </picture>
+            </div>
+        </div>
+        <div class="cs-content">
+            <h1 class="cs-title"><span class="cs-color">Aromatherapy Massage</span> in Preston </h1>
+            <p>Immerse yourself in the sensory journey of Aromatherapy Massage at Marcha Traditional Thai Massage. This gentle and holistic treatment combines the soothing power of massage with the therapeutic benefits of essential oils to enhance both physical and emotional well-being.</p>
+            <p>Our skilled therapist carefully selects a blend of essential oils to suit your specific needs. The aromas and the gentle massage work together to relax the mind, balance emotions, and soothe the body.</p>
+            <p>Aromatherapy Massage is an ideal choice for those seeking a less intensive massage experience but wish to reap significant benefits for both mind and body wellness.</p>
+            <h3>Benefits of Aromatherapy Massage</h3>
+            <ul>
+                <li><strong>Relieves Stress and Anxiety:</strong> The combination of calming scents and gentle massage helps in significantly reducing stress and anxiety levels, promoting a state of mental and emotional tranquility.</li>
+                <li><strong>Boosts Mood:</strong> Essential oils used in aromatherapy are known for their mood-enhancing properties, helping to uplift spirits and balance emotions during and after the massage.</li>
+                <li><strong>Improves Sleep Quality:</strong> Aromatherapy massage aids in relaxation and can have a positive effect on sleep patterns, contributing to more restful and quality sleep.</li>
+                <li><strong>Reduces Muscle Tension:</strong> While gentler than deep tissue massage, aromatherapy massage still effectively eases muscle tension and soreness, providing a soothing and healing experience.</li>
+                <li><strong>Enhances Skin Health:</strong> The use of high-quality essential oils not only benefits the mind and senses but also nourishes and improves skin health, leaving it feeling soft and rejuvenated.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="cs-bubbles" aria-hidden="true"></div>
+</section>
+
+{% include 'components/cta.html' %}
+
+{% endblock %}

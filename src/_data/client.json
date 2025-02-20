@@ -1,0 +1,16 @@
+{
+    "name": "Noi Thai Massage",
+    "email": "noi@noithaimassage.co.uk",
+    "phoneForTel": "+447563250955",
+    "phoneFormatted": "07563 250955",
+    "onlineBooking": "https://noithaimassage.setmore.com/beta",
+    "address": {
+        "lineOne": "145 Chester Road",
+        "lineTwo": "",
+        "city": "Sunderland",
+        "state": "Tyne And Wear",
+        "zip": "SR4 7HS",
+        "mapLink": "https://maps.app.goo.gl/gDhSFTwLjY5h3geA9"
+    },
+    "domain": "https://noithaimassage.co.uk/"
+}

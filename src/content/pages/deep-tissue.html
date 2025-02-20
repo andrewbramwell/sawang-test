@@ -1,0 +1,87 @@
+---
+title: 'Deep Tissue Massage'
+description: 'Explore deep tissue massage services at Marcha in Preston. Ideal for muscle tension relief and recovery. See benefits and book your session.'
+preloadImg: '/assets/images/banners/internal.webp'
+permalink: 'deep-tissue/'
+eleventyNavigation:
+
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/internal.css">
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-1400">
+    <div class="cs-container">
+        <span class="cs-int-title">Deep Tissue Massage</span>
+        <div class="cs-breadcrumbs">
+            <a href="" class="cs-link">Home</a>
+            <a href="/deep-tissue/" class="cs-link cs-active">Deep Tissue</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/banners/internal-m.webp">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="/assets/images/banners/internal.webp">
+        <img decoding="async" src="/assets/images/banners/internal.jpg" alt="massage" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+
+<!-- ============================================ -->
+<!--                 Content Page                 -->
+<!-- ============================================ -->
+
+<section id="content-page-1399">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <div class="cs-flex">
+                <picture class="cs-background">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets/images/side/thai3-m.webp">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets/images/side/thai3-m.webp">
+                    <img loading="lazy" decoding="async" src="/assets/images/side/thai3.jpg" alt="deep tissue massage" width="542" height="728">
+                </picture>
+            </div>
+        </div>
+        <div class="cs-content">
+            <h1 class="cs-title"><span class="cs-color">Deep Tissue Massage</span> in Sunderland </h1>
+            <p>Discover the transformative power of Deep Tissue Massage at Noi Thai Massage. This specialized technique is designed to target the deepest layers of muscle and connective tissue, making it an ideal choice for athletes, fitness enthusiasts, and anyone seeking relief from chronic tension and muscle knots. </p>
+            <p>Our skilled therapists employ firm pressure and slow, purposeful strokes to access these profound muscle layers. By doing so, they effectively alleviate pain, enhance mobility, and promote the recovery of muscle injuries, allowing you to perform at your best both on and off the field.</p>
+            <p>Deep Tissue Massage is particularly beneficial for individuals dealing with persistent muscular pain, high levels of stress, or postural imbalances. It offers a therapeutic solution for achieving long-term relief and promoting overall physical wellness, ensuring that you can maintain an active and healthy lifestyle.</p>
+            <h3>The Benefits of Deep Tissue Massage</h3>
+            <ul>
+                <li>
+                    <strong>Alleviates Muscle Pain:</strong> Our Deep Tissue Massage effectively reduces chronic muscle tension and relieves discomfort, particularly in deep muscle layers and areas prone to tightness, such as the neck, lower back, and shoulders, helping you maintain optimal physical performance.
+                </li> 
+                <li>
+                    <strong>Enhances Mobility:</strong> By loosening tight muscles and fascia, this massage technique helps improve range of motion and mobility, enabling you to engage in your favorite sports and activities with greater ease and less discomfort.
+                </li>
+                <li>
+                    <strong>Reduces Stress:</strong> The powerful techniques used in Deep Tissue Massage promote deep relaxation, significantly reducing stress and anxiety levels, allowing you to maintain a focused and resilient mindset both in competition and in daily life.
+                </li>
+                <li>
+                    <strong>Promotes Recovery:</strong> By aiding in the healing of muscle injuries and improving overall muscle health, Deep Tissue Massage is an essential tool for athletes and fitness enthusiasts looking to optimize their recovery and maintain peak performance.
+                </li>
+                <li>
+                    <strong>Improves Posture:</strong> Regular Deep Tissue Massage sessions can help correct postural imbalances by balancing muscle strength and length, ensuring that you maintain proper alignment and reduce the risk of injury during physical activities.
+                </li>
+            </ul>
+        </div>
+        </div>
+    </div>
+</section>
+
+{% include 'components/cta.html' %}
+
+{% endblock %}

@@ -1,0 +1,79 @@
+---
+title: 'About'
+description: "Meet Nan, bringing genuine Northern Thai massage expertise to Barnsley. Learn about her journey, qualifications, and dedication to therapeutic wellness."
+preloadImg: '/assets/images/banners/internal.webp'
+permalink: 'about/'
+eleventyNavigation:
+    key: About Us
+    order: 200
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/about.css">
+{% endblock %}
+
+{% block body %}
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-1400">
+    <div class="cs-container">
+        <span class="cs-int-title">About Us</span>
+        <div class="cs-breadcrumbs">
+            <a href="/" class="cs-link">Home</a>
+            <a href="/about/" class="cs-link cs-active">About</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/banners/internal-m.webp">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="/assets/images/banners/internal.webp">
+        <img decoding="async" src="/assets/images/banners/internal.jpg" alt="massage" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs-867">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="/assets/images/side/buddah.webp">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="/assets/images/side/buddah-m.webp">
+            <img loading="lazy" decoding="async" src="/assets/images/side/buddah.jpg" alt="buddah" width="630" height="775">
+        </picture>
+       <div class="cs-content">
+        <h2 class="cs-title">A Passion for Healing</h2>
+        <p class="cs-text">
+            At Sawang Thai Massage, I am dedicated to providing an authentic and transformative Thai massage experience. My journey brings the traditional healing techniques of Northern Thailand directly to you.
+        </p>
+        <p class="cs-text">
+            Born and raised in Nakhon Sawan, Northern Thailand, I discovered my passion for massage therapy through my cultural heritage. Since relocating to the UK in 2013, I've developed my skills with three years of professional experience in the massage therapy industry, earning certifications in both Thai Massage and Deep Tissue techniques.
+        </p>
+        <p class="cs-text">
+          I established Sawang Thai Massage in March 2025 to share my authentic expertise with the Barnsley community. As the sole proprietor and therapist, I ensure that each client receives my complete attention and benefits from a truly personal approach to wellness. Every treatment reflects my dedication to quality and genuine care for your wellbeing.
+        </p>
+        <p class="cs-text">
+            I understand that each person's needs are unique, which is why I begin with a health assessment and tailor every session to address your specific concerns. Whether you're seeking relief from physical discomfort, stress reduction, or simply a moment of relaxation, I'm committed to helping you achieve your wellness goals.
+        </p>
+        <p id="quote-828">
+            "My hands carry the ancient wisdom of Thai healing traditions. Through these techniques, I aim to release tension, restore balance, and help you reconnect with your body's natural harmony."
+            <span class="cs-name">Nan, Founder of Sawang Thai Massage</span>
+        </p>                     
+    </div>
+    </div>
+</section>
+                                
+                                
+
+    {% include 'components/cta.html' %}
+
+{% endblock %}

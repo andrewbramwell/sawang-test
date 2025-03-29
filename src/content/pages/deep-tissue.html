@@ -1,0 +1,87 @@
+---
+title: 'Deep Tissue Massage'
+description: "Targeted Deep Tissue Massage in Barnsley designed to relieve chronic muscle tension, improve mobility and aid recovery from physical strain."
+preloadImg: '/assets/images/banners/internal.webp'
+permalink: 'deep-tissue/'
+eleventyNavigation:
+
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/internal.css">
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-1400">
+    <div class="cs-container">
+        <span class="cs-int-title">Deep Tissue Massage</span>
+        <div class="cs-breadcrumbs">
+            <a href="/" class="cs-link">Home</a>
+            <a href="/deep-tissue/" class="cs-link cs-active">Deep Tissue</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/banners/internal-m.webp">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="/assets/images/banners/internal.webp">
+        <img decoding="async" src="/assets/images/banners/internal.jpg" alt="massage" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+
+<!-- ============================================ -->
+<!--                 Content Page                 -->
+<!-- ============================================ -->
+
+<section id="content-page-1399">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <div class="cs-flex">
+                <picture class="cs-background">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets/images/side/thai3-m.webp">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets/images/side/thai3-m.webp">
+                    <img loading="lazy" decoding="async" src="/assets/images/side/thai3.jpg" alt="deep tissue massage" width="542" height="728">
+                </picture>
+            </div>
+        </div>
+        <div class="cs-content">
+            <h1 class="cs-title"><span class="cs-color">Deep Tissue Massage</span> in Barnsley</h1>
+            <p>Experience the powerful benefits of Deep Tissue Massage at Sawang Thai Massage. This specialized technique targets the deepest layers of muscle tissue and fascia, making it perfect for active individuals, those with chronic tension, and anyone seeking relief from persistent muscle discomfort.</p>
+            <p>Using firm pressure and deliberate strokes, I work to access these deeper muscle layers. This effective approach helps alleviate pain, improve mobility, and support recovery from muscle injuries, allowing you to move more freely and comfortably in daily activities.</p>
+            <p>Deep Tissue Massage is particularly valuable for those experiencing ongoing muscular pain, stress-related tension, or postural problems. It provides therapeutic relief and promotes physical wellness, helping you maintain an active and balanced lifestyle.</p>
+            <h3>The Benefits of Deep Tissue Massage</h3>
+            <ul>
+                <li>
+                    <strong>Relieves Muscle Pain:</strong> Deep Tissue Massage effectively reduces chronic muscle tension and discomfort, especially in problematic areas like the neck, shoulders and lower back, helping restore comfort and ease of movement.
+                </li> 
+                <li>
+                    <strong>Improves Flexibility:</strong> By releasing tight muscles and connective tissue, this technique enhances range of motion and flexibility, allowing you to move more freely with less restriction and discomfort.
+                </li>
+                <li>
+                    <strong>Decreases Stress:</strong> The focused techniques used promote deep relaxation, significantly reducing physical and mental stress levels, helping you maintain balance in both body and mind.
+                </li>
+                <li>
+                    <strong>Aids Recovery:</strong> By supporting the healing process of muscle injuries and improving tissue health, Deep Tissue Massage helps speed recovery and maintain physical wellbeing for both active individuals and those recovering from injury.
+                </li>
+                <li>
+                    <strong>Corrects Posture:</strong> Regular sessions can help address postural imbalances by balancing muscle tension and length, promoting proper alignment and reducing strain on your body during daily activities.
+                </li>
+            </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include 'components/cta.html' %}
+
+{% endblock %}

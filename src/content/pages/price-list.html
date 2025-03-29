@@ -1,0 +1,537 @@
+---
+title: 'Massages'
+description: "Explore our range of massage treatments at Sawang Thai Massage Barnsley, from traditional Thai techniques to deep tissue therapy for targeted relief."
+preloadImg: '/assets/images/banners/internal.webp'
+permalink: 'massages/'
+eleventyNavigation:
+    key: Massages
+    order: 300
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/treatments.css">
+{% endblock %}
+
+{% block body %}
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-1400">
+    <div class="cs-container">
+        <span class="cs-int-title">Massages</span>
+        <div class="cs-breadcrumbs">
+            <a href="/" class="cs-link">Home</a>
+            <a href="/massages/" class="cs-link cs-active">Massages</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/banners/internal-m.webp">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="/assets/images/banners/internal.webp">
+        <img decoding="async" src="/assets/images/banners/internal.jpg" alt="massage" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+
+<!-- ============================================ -->
+<!--                  Menu Group                  -->
+<!-- ============================================ -->
+
+<div id="cs-menu-group-1037">
+    <div class="cs-container">
+        <div class="cs-content">
+            <picture class="cs-icon-wrapper">
+                <img class="cs-icon" decoding="async" src="/assets/svgs/logo-g.svg" alt="divider" width="181" height="36" aria-hidden="true">
+            </picture>
+            <h2 class="cs-title">Our Treatments</h2>
+            <div class="cs-button-group">
+                <button class="cs-button cs-active" data-filter="one" onclick="window.location.href='#cs-menu-group';">
+                    30 Min
+                </button>
+                <button class="cs-button" data-filter="two" onclick="window.location.href='#cs-menu-group';">
+                    60 Min
+                </button>
+                <button class="cs-button" data-filter="three" onclick="window.location.href='#cs-menu-group';">
+                    90 Min
+                </button>
+                 <button class="cs-button" data-filter="four" onclick="window.location.href='#cs-menu-group';">
+                    120 Min
+                </button>
+            </div>
+        </div>
+        <!--30 min-->
+        <div id="cs-menu1-1037" class="cs-menu-group" data-category="one">
+            <!--30 min-->
+            <section class="cs-menu">
+                <div class="cs-container">
+                    <ul class="cs-card-group">
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/deep-tissue.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/deep-tissue.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/deep-tissue.jpg" alt="deep tissue massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Deep Tissue Massage</span>
+                                    <span class="cs-price">
+                                        £30
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Firm pressure targeting leg and shoulder tension. Relieves muscle knots and improves mobility through deliberate, deep movements.
+                                </p>
+                            </div>
+                        </li>
+                       <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/hot-oil.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/hot-oil.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/hot-oil.jpg" alt="hot oil massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Hot Oil Massage</span>
+                                    <span class="cs-price">
+                                        £30
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Gentle to moderate pressure from shoulders to feet. Promotes complete relaxation, reduces stress, and improves sleep quality.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/herbal.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/herbal.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/herbal.jpg" alt="herbal compress massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Herbal Compress Massage</span>
+                                    <span class="cs-price">
+                                        £35
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Combines deep tissue with Thai herbal compresses. Therapeutic heat provides faster muscle relaxation and improved circulation.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/office.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/office.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/office.jpg" alt="office syndrome massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Office Syndrome Massage</span>
+                                    <span class="cs-price">
+                                        £25
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Targeted half-body treatment focusing on head to lower back. Relieves seated tension and improves posture.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/thai-massage.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/thai-massage.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/thai-massage.jpg" alt="thai massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Thai Massage</span>
+                                    <span class="cs-price">
+                                        £30
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Ancient stretching and pressure point techniques combining acupressure and yoga-like movements for improved flexibility and energy flow.
+                                </p>
+                            </div>
+                        </li>
+                     </ul>
+                </div>
+            </section>
+        </div>
+        <!--60 min-->
+        <div id="cs-menu2-1037" class="cs-menu-group" data-category="two">
+            <!--60 min-->
+           <section class="cs-menu">
+                <div class="cs-container">
+                    <ul class="cs-card-group">
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/deep-tissue.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/deep-tissue.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/deep-tissue.jpg" alt="deep tissue massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Deep Tissue Massage</span>
+                                    <span class="cs-price">
+                                        £50
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Firm pressure targeting leg and shoulder tension. Relieves muscle knots and improves mobility through deliberate, deep movements.
+                                </p>
+                            </div>
+                        </li>
+                       <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/hot-oil.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/hot-oil.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/hot-oil.jpg" alt="hot oil massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Hot Oil Massage</span>
+                                    <span class="cs-price">
+                                        £50
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Gentle to moderate pressure from shoulders to feet. Promotes complete relaxation, reduces stress, and improves sleep quality.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/full-body.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/full-body.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/full-body.jpg" alt="full body massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Full Body Massage</span>
+                                    <span class="cs-price">
+                                        £50
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Head-to-toe experience with moderate pressure addressing tension throughout the body for complete rejuvenation.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/herbal.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/herbal.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/herbal.jpg" alt="herbal compress massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Herbal Compress Massage</span>
+                                    <span class="cs-price">
+                                        £55
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Combines deep tissue with Thai herbal compresses. Therapeutic heat provides faster muscle relaxation and improved circulation.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/office.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/office.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/office.jpg" alt="office syndrome massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Office Syndrome Massage</span>
+                                    <span class="cs-price">
+                                        £45
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Targeted half-body treatment focusing on head to lower back. Relieves seated tension and improves posture.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/thai-massage.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/thai-massage.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/thai-massage.jpg" alt="thai massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Thai Massage</span>
+                                    <span class="cs-price">
+                                        £50
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Ancient stretching and pressure point techniques combining acupressure and yoga-like movements for improved flexibility and energy flow.
+                                </p>
+                            </div>
+                        </li>
+                     </ul>
+                </div>
+            </section>
+        </div>
+        <!--90 min-->
+        <div id="cs-menu3-1037" class="cs-menu-group" data-category="three">
+            <!--90 min-->
+            <section class="cs-menu">
+                <div class="cs-container">
+                    <ul class="cs-card-group">
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/deep-tissue.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/deep-tissue.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/deep-tissue.jpg" alt="deep tissue massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Deep Tissue Massage</span>
+                                    <span class="cs-price">
+                                        £75
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Firm pressure targeting leg and shoulder tension. Relieves muscle knots and improves mobility through deliberate, deep movements.
+                                </p>
+                            </div>
+                        </li>
+                       <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/hot-oil.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/hot-oil.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/hot-oil.jpg" alt="hot oil massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Hot Oil Massage</span>
+                                    <span class="cs-price">
+                                        £75
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Gentle to moderate pressure from shoulders to feet. Promotes complete relaxation, reduces stress, and improves sleep quality.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/full-body.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/full-body.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/full-body.jpg" alt="full body massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Full Body Massage</span>
+                                    <span class="cs-price">
+                                        £75
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Head-to-toe experience with moderate pressure addressing tension throughout the body for complete rejuvenation.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/herbal.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/herbal.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/herbal.jpg" alt="herbal compress massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Herbal Compress Massage</span>
+                                    <span class="cs-price">
+                                        £75
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Combines deep tissue with Thai herbal compresses. Therapeutic heat provides faster muscle relaxation and improved circulation.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/thai-massage.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/thai-massage.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/thai-massage.jpg" alt="thai massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Thai Massage</span>
+                                    <span class="cs-price">
+                                        £75
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Ancient stretching and pressure point techniques combining acupressure and yoga-like movements for improved flexibility and energy flow.
+                                </p>
+                            </div>
+                        </li>
+                     </ul>
+                </div>
+            </section>
+        </div>
+         <div id="cs-menu3-1037" class="cs-menu-group" data-category="four">
+            <!--120 min-->
+            <section class="cs-menu">
+                <div class="cs-container">
+                    <ul class="cs-card-group">
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/deep-tissue.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/deep-tissue.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/deep-tissue.jpg" alt="deep tissue massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Deep Tissue Massage</span>
+                                    <span class="cs-price">
+                                        £95
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Firm pressure targeting leg and shoulder tension. Relieves muscle knots and improves mobility through deliberate, deep movements.
+                                </p>
+                            </div>
+                        </li>
+                       <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/hot-oil.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/hot-oil.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/hot-oil.jpg" alt="hot oil massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Hot Oil Massage</span>
+                                    <span class="cs-price">
+                                        £95
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Gentle to moderate pressure from shoulders to feet. Promotes complete relaxation, reduces stress, and improves sleep quality.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/full-body.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/full-body.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/full-body.jpg" alt="full body massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Full Body Massage</span>
+                                    <span class="cs-price">
+                                        £95
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Head-to-toe experience with moderate pressure addressing tension throughout the body for complete rejuvenation.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/herbal.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/herbal.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/herbal.jpg" alt="herbal compress massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Herbal Compress Massage</span>
+                                    <span class="cs-price">
+                                        £100
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Combines deep tissue with Thai herbal compresses. Therapeutic heat provides faster muscle relaxation and improved circulation.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/thai-massage.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/thai-massage.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/thai-massage.jpg" alt="thai massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Thai Massage</span>
+                                    <span class="cs-price">
+                                        £95
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Ancient stretching and pressure point techniques combining acupressure and yoga-like movements for improved flexibility and energy flow.
+                                </p>
+                            </div>
+                        </li>
+                     </ul>
+                </div>
+            </section>
+        </div>
+        <a href="{{client.onlineBooking}}" target="_blank" rel="noopener" class="cs-button-solid">Schedule A Massage</a>
+    </div>
+</div>
+
+<script>
+    class CS_MenuFilter {
+    filtersSelector = '.cs-button'
+    menuSelector = '.cs-menu-group'
+    activeClass = 'cs-active'
+    hiddenClass = 'cs-hidden'
+
+    constructor() {
+        this.$menus = document.querySelectorAll(this.menuSelector)
+        const $filters = document.querySelectorAll(this.filtersSelector)
+
+        this.onClick($filters[0])
+
+        for (const $filter of $filters) {
+            $filter.addEventListener('click', () => this.onClick($filter))
+        }
+    }
+
+    onClick($filter) {
+        this.filter($filter.dataset.filter)
+
+        const { activeClass } = this
+
+        this.$activeFilter?.classList.remove(activeClass)
+        $filter.classList.add(activeClass)
+
+        this.$activeFilter = $filter
+    }
+
+    filter(filter) {
+        const showAll = filter == 'all'
+        const { hiddenClass } = this
+
+        for (const $menu of this.$menus) {
+            const show = showAll || $menu.dataset.category == filter
+            $menu.classList.toggle(hiddenClass, !show)
+        }
+    }
+}
+
+new CS_MenuFilter()
+                                
+</script>
+                                
+                                
+                                
+                                
+
+    {% include 'components/cta.html' %}
+
+{% endblock %}

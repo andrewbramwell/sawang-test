@@ -1,0 +1,86 @@
+---
+title: 'Thai Massage'
+description: "Traditional Thai Massage in Barnsley combining stretching, pressure point therapy and energy work to enhance flexibility, reduce stress and promote wellbeing."
+preloadImg: '/assets/images/banners/internal.webp'
+permalink: 'thai-massage/'
+eleventyNavigation:
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/internal.css">
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-1400">
+    <div class="cs-container">
+        <span class="cs-int-title">Thai Traditional Massage</span>
+        <div class="cs-breadcrumbs">
+            <a href="/" class="cs-link">Home</a>
+            <a href="/thai-massage/" class="cs-link cs-active">Thai Massage</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/banners/internal-m.webp">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="/assets/images/banners/internal.webp">
+        <img decoding="async" src="/assets/images/banners/internal.jpg" alt="massage" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+
+<!-- ============================================ -->
+<!--                 Content Page                 -->
+<!-- ============================================ -->
+
+<section id="content-page-1399">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <div class="cs-flex">
+                <picture class="cs-background">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets/images/side/thai2-m.webp">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets/images/side/thai2-m.webp">
+                    <img loading="lazy" decoding="async" src="/assets/images/side/thai2.jpg" alt="thai massage" width="542" height="728">
+                </picture>
+            </div>
+        </div>
+        <div class="cs-content">
+            <h1 class="cs-title"><span class="cs-color">Traditional Thai Massage</span> in Barnsley</h1>   
+            <p>Experience the authentic healing power of Traditional Thai Massage at Sawang Thai Massage. This ancient therapy, originating from Northern Thailand, offers a holistic approach to wellbeing. By combining precise acupressure, assisted stretching, and energy work, I work to balance your body and relieve discomfort by focusing on the body's energy pathways, known as "sen lines."</p>
+            <p>As a therapist with genuine Thai heritage, I use a skilled combination of hands, thumbs, elbows, and palms to apply rhythmic pressure along these energy lines. Each session incorporates flowing movements, gentle stretching, and mindful compression techniques, helping to release tension, enhance flexibility, improve circulation, and promote deep relaxation.</p>
+            <p>Celebrated for its effectiveness, Traditional Thai Massage is ideal for those looking to relieve muscle tightness, reduce stress, ease joint stiffness, and combat fatigue. Whether you need therapeutic relief or simply desire a rejuvenating experience, my Traditional Thai Massage provides a comprehensive approach to wellness that integrates the physical and mental benefits of ancient healing practices.</p>
+            <h3><strong>The Benefits of Traditional Thai Massage</strong></h3>
+            <ul>
+                <li>
+                    <strong>Muscle Tension Relief:</strong> Experience significant reduction in stiffness as targeted pressure and stretching techniques help release deep-seated muscle tension, allowing your body to find natural comfort.
+                </li>
+                <li>
+                    <strong>Enhanced Blood Flow:</strong> The rhythmic pressure and methodical movements promote healthy circulation, improving oxygen delivery throughout the body while helping remove toxins.
+                </li>
+                <li>
+                    <strong>Greater Flexibility:</strong> Thai massage incorporates gentle stretching techniques that improve joint mobility and range of motion, creating a greater sense of physical freedom.
+                </li>
+                <li>
+                    <strong>Stress Reduction:</strong> Achieve mental relaxation as the balancing massage techniques effectively lower stress and anxiety, helping you release tension and find calm.
+                </li>
+                <li>
+                    <strong>Renewed Energy:</strong> By working with your body's natural energy systems, Traditional Thai Massage revitalizes your energy levels, promoting a sense of vitality and overall wellbeing.
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+{% include 'components/cta.html' %}
+
+{% endblock %}
+                                

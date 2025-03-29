@@ -3,14 +3,14 @@
     "email": "",
     "phoneForTel": "+447359339725",
     "phoneFormatted": "07359 339725",
-    "onlineBooking": "",
+    "onlineBooking": "https://sawangthaimassagetherapy.setmore.com/",
     "address": {
         "lineOne": "Unit 1G Redbrook Business Park",
         "lineTwo": "",
         "city": "Barnsley",
         "state": "",
         "zip": "",
-        "mapLink": ""
+        "mapLink": "https://maps.app.goo.gl/KgKVRbLg1jDqBbTH9"
     },
     "domain": "https://sawangthaimassage.co.uk/"
 }

@@ -4,6 +4,7 @@
     "phoneForTel": "+447359339725",
     "phoneFormatted": "07359 339725",
     "onlineBooking": "https://sawangthaimassagetherapy.setmore.com/",
+    "openingHours": "Mon-Sat: 9:30am-7:30pm",
     "address": {
         "lineOne": "Unit 1G Redbrook Business Park",
         "lineTwo": "",
@@ -12,5 +13,45 @@
         "zip": "",
         "mapLink": "https://maps.app.goo.gl/KgKVRbLg1jDqBbTH9"
     },
-    "domain": "https://sawangthaimassage.co.uk/"
+    "domain": "https://www.sawangthaimassage.co.uk",
+    "schema": {
+        "business": {
+            "@context": "https://schema.org",
+            "@type": "HealthAndBeautyBusiness",
+            "@id": "https://www.sawangthaimassage.co.uk/#business",
+            "name": "Sawang Thai Massage",
+            "image": "https://www.sawangthaimassage.co.uk/assets/svgs/logo-g.svg",
+            "url": "https://www.sawangthaimassage.co.uk",
+            "telephone": "+447359339725",
+            "priceRange": "££",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Unit 1G Redbrook Business Park",
+                "addressLocality": "Barnsley",
+                "addressCountry": "GB"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "url": "https://maps.app.goo.gl/KgKVRbLg1jDqBbTH9"
+            },
+            "openingHoursSpecification": [
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                    "opens": "09:30",
+                    "closes": "19:30"
+                }
+            ]
+        },
+        "website": {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "@id": "https://www.sawangthaimassage.co.uk/#website",
+            "url": "https://www.sawangthaimassage.co.uk",
+            "name": "Sawang Thai Massage",
+            "publisher": {
+                "@id": "https://www.sawangthaimassage.co.uk/#business"
+            }
+        }
+    }
 }

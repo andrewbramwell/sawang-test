@@ -53,6 +53,12 @@ module.exports = function (eleventyConfig) {
     // FILTERS - Modify data in template files at build time
     // Converts dates from JSDate format (Fri Dec 02 18:00:00 GMT-0600) to a locale format. More info in docs - https://moment.github.io/luxon/api-docs/index.html#datetime
     eleventyConfig.addFilter("postDate", filterPostDate);
+    
+    // Convert JavaScript objects to JSON strings for schema markup
+    // Use - {{ client.schema.business | jsonify | safe }}
+    eleventyConfig.addFilter("jsonify", function(value) {
+        return JSON.stringify(value, null, 2);
+    });
     // END FILTERS
 
     return {
